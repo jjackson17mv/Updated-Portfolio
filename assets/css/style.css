@@ -1,0 +1,176 @@
+
+
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 100%;
+    
+}
+
+.bg-primary {
+    padding-top: 0%;
+    background-image: url("../../images/backer.jpg");
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+    
+}
+
+.navPosition {
+    padding-bottom: 7%;;
+}
+
+@media screen and (max-width: 710px) {
+    .navPosition {
+        padding-bottom: 13%;
+    }
+}
+
+.navBorder:hover {
+    background-color:white !important;
+    color:maroon;
+    padding: 2%;
+    border-radius: 5px;
+    padding-bottom:7%;
+}
+
+.nav-link {
+    color:gold !important;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+@media screen and (max-width: 476px) {
+    .navPosition {
+        font-size: 75%;
+    }
+}
+
+.container {
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.introDiv {
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-weight: bold;
+    color: goldenrod;
+   
+    
+}
+
+
+.name {
+    font-weight: bolder;
+    font-size: 300%;
+    margin-top: 8%;
+}
+
+.profession {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+
+.skills {
+    font-size: 155%;
+    font-weight: bolder;
+}
+
+.photoDiv {
+    text-align: center;
+}
+
+.profilePic {
+    width: 60%;
+    border-style: solid;
+    border-color: maroon;
+    border-width: 5px;
+    
+
+}
+
+.bg-secondary {
+    background-color:goldenrod;
+}
+
+.aboutSection {
+    text-align: center;
+    color:goldenrod;
+    padding-bottom: 4%;
+    padding-top: 1%;
+    background-image:url(https://i.pinimg.com/originals/97/f0/ef/97f0efbaaec8acfc369f5403878bd6be.gif);
+}
+
+.aboutParagraph {
+    text-align: left;
+    color:goldenrod;
+    font-weight:bolder;
+    font-size: 150%;
+}
+
+.portfolio {
+    color: goldenrod !important;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-image:url(https://i.pinimg.com/originals/97/f0/ef/97f0efbaaec8acfc369f5403878bd6be.gif);
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.imgMod {
+    width: 100%;
+    height: 100%;
+    padding: 2%;;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    margin: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.projectName {
+    color: goldenrod !important;
+    font-weight: bolder;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.bg-info{
+    background-color: #A5CFC9 !important;
+}
+
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: #A5CFC9;
+    border-color: black;
+    padding-bottom:7px;
+}
+
+button:hover {
+    background-color: black;
+    color: #A5CFC9;
+}
+
+.footer {
+    text-align: center;
+    background-color:#5174BF;
+    color:black;
+    font-size: 100%;
+    padding: 1%;
+}
